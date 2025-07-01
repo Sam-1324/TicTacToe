@@ -5,3 +5,5 @@ public class Main {
         System.out.println("Hello world!");
     }
 }
+
+/* NOTE: Always use 'STATE DESIGN PRINCIPLE' to design Vending Machine */

@@ -47,3 +47,21 @@ LLD Design and Code of basic Tic-Tac-Toe game
 
 
 
+
+
+
+# Important Java Rule
+-> When we do compile , all the .java files will be converted to .class files , only those classes will be loaded to RAM by JVM which is required to be used , if the classes are not used during run-time the will not be loaded into the RAM.
+
+-> When the classes are loaded for the first time then the static blocks inside that specific class get's executed. Post the classes get loaded into the RAM and respective static blocks are executed only then constructors get's executed.
+
+-> Imp Note:-  If we are using new () keyword , or calls a static method , or accessing a non-static field of a class will lead to loading of classes into RAM , otherwise if we are accessing a compile-time constant (public static fnal primitive / String literal) will not lead to loading of classes into RAM/Memmory by JVM.
+
+-> When a priority queue is created , the items are stored in default in Min-Heap , it means if the items are polled out then automatically the elements will be removed in ascending to descending order not like FIFO just in case of normal Queue.
+
+
+
+
+
+
+
