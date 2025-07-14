@@ -10,8 +10,10 @@ public class ATMroom
     public static void main(String [] args)
     {
              ATMroom atmRoom = new ATMroom();
+             ATMroom atmRoom1 = new ATMroom();
              //Initialzing the ATM room space......
              atmRoom.initialize();
+             atmRoom1.initialize();
 
              atmRoom.atm.printCurrentAtmStatus();
 
